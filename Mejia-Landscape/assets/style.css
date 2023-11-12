@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+  }
+body{
+    background-color: rgb(78,89,93);
+    font-size: 12px;
+    color: rgb(245, 244, 243);
+    text-align: center;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
+#header{
+    display: block;
+    margin: 15% auto 10% auto;
+    height: auto;
+    text-align: center;
+}
+
+#header img{
+    max-width: 150px;
+
+}
+span{
+    color:azure;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2em;
+}
+#links div{
+    display: flex;
+    flex-direction: column;
+    padding: 5% 0;
+}
+.link{
+    padding: 4%;
+    text-align: center;
+    border: 1px solid white;
+    border-width: 2px;
+
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+
+    border-radius: 40px;
+    font-size: 1.3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a{
+    text-decoration: none;
+    background-color: rgb(255, 244, 228);
+    color: rgb(62,181,140);
+    transition: color 1s;
+    margin: 8%;
+    
+}
+.link a{
+    padding-top: 5%;
+}
+a:hover{
+    background-color: rgb(78,89,93);
+}
+footer{
+    margin-top: 15%;
+}
+footer div{
+    margin-top: 10%;
+}
+.socials{
+    background-color: rgb(78,89,93);
+    font-size: 3em;
+}
+.socials:hover{
+    background-color: antiquewhite;
+}
+@media screen and (min-width: 600px){
+    #header, footer, div{
+        margin: 0;   
+    }
+    #header{
+        margin: 4%;
+    }
+    #links div{
+        padding: 2% 0  ;
+        display: block;
+    }
+    .link{
+        padding: 2%;
+        width: 400px;
+    }
+    .socials{
+        padding: 0;
+    }
+    footer div{
+        margin: 2%;
+    }
+}
