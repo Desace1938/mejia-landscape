@@ -1,0 +1,15 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//iPhone OS 15.6//EN
+N:;Mejia Landscape;;;
+FN:Mejia Landscape
+ORG:Carlos Mejia;
+EMAIL;type=INTERNET;type=WORK;type=pref:Cmgto13@gmail.com
+TEL;type=CELL;type=VOICE;type=pref:(417) 486-0368
+item1.ADR;type=HOME;type=pref:;;;Republic;MO;;United States
+item1.X-ABADR:us
+item2.URL;type=pref:www.mejialandscape.net
+item2.X-ABLabel:_$!<HomePage>!$_
+item3.URL:https://www.facebook.com/Mejias-Landscape-110211748147594/
+item3.X-ABLabel:Facebook
+END:VCARD
